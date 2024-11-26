@@ -1,0 +1,22 @@
+[package]
+name = "telem-gen"
+description = "Generate simulated UxV / vehicle telemetry data with a variety of different protocols."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+chrono.workspace = true
+cot-proto.workspace = true
+nom.workspace = true
+quick-xml.workspace = true
+rand.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[features]
+default = []
+cot = []
